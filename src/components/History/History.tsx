@@ -81,7 +81,7 @@ const History = ({
   const onSend = async ({ type, content }: onSendProps) => {
     try {
       await axios.post(
-        `http://localhost:8000/chats/${chat?.chat_id}/messages`,
+        `http://${import.meta.env.VITE_PUBLIC_API}/chats/${chat?.chat_id}/messages`,
         {
           user_id: 'user0',
           type: type,
