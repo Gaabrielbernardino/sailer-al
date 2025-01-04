@@ -1,0 +1,32 @@
+{
+    "users" : [
+        {
+            "label": "Pedro",
+            "value": "user1"
+        },
+        {
+            "label": "João",
+            "value": "user2"
+        },
+        {
+            "label": "Gabriela",
+            "value": "user3"
+        },
+        {
+            "label": "Maria",
+            "value": "user4"
+        },
+        {
+            "label": "Eduardo",
+            "value": "user5"
+        },
+        {
+            "label": "Mariana",
+            "value": "user6"
+        },
+        {
+            "label": "Bot",
+            "value": "bot_user"
+        }
+    ]
+}
